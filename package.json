@@ -1,0 +1,13 @@
+{
+  "name": "ajay-cafe",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "start:backend": "cd backend && node server.js",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "all": "^0.0.0"
+  }
+}
